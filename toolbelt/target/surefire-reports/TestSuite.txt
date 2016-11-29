@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 226.576 sec <<< FAILURE!
+loginWithWrongDetail(com.Test.loginValidation)  Time elapsed: 23.936 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Access Denied / User Login | tool - belt] but found [tool - belt]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.Test.loginValidation.loginWithWrongDetail(loginValidation.java:38)
+
+searchassetbyflag(com.Test.searchValidation)  Time elapsed: 25.316 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.Test.searchValidation.searchassetbyflag(searchValidation.java:40)
+
+searchassetbykeyword(com.Test.searchValidation)  Time elapsed: 21.411 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.Test.searchValidation.searchassetbykeyword(searchValidation.java:50)
+
+searchassetbystatus(com.Test.searchValidation)  Time elapsed: 22.313 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.Test.searchValidation.searchassetbystatus(searchValidation.java:59)
+

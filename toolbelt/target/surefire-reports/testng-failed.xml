@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Test.loginValidation">
+        <methods>
+          <include name="loginWithWrongDetail"/>
+          <include name="after"/>
+          <include name="load"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Test.loginValidation -->
+      <class name="com.Test.searchValidation">
+        <methods>
+          <include name="after"/>
+          <include name="searchassetbyflag"/>
+          <include name="searchassetbykeyword"/>
+          <include name="setup"/>
+          <include name="searchassetbystatus"/>
+        </methods>
+      </class> <!-- com.Test.searchValidation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
